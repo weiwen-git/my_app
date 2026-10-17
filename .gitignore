@@ -1,0 +1,29 @@
+# 依赖与构建产物
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+
+# 运行时数据（含数据库，绝不入库）
+data/
+backups/
+*.db
+*.db-wal
+*.db-shm
+
+# 密钥
+.env
+.env.local
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# 端到端测试产物（可重新生成）
+.e2e/node_modules/
+.e2e/shots/
+.e2e/shots2/
+.e2e/shots3/
+.e2e/result.json
+.e2e/result2.json
